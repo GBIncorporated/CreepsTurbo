@@ -12,7 +12,7 @@ activity.isValidActivity = function (creep)
       return (_.sum(creep.carry) > 0) && creep.room.GetEmptyEnergyCapacity() > 0;
 };
 
-activity.isValidTarget = function      (target)
+activity.isValidTarget = function (target)
 {
       return (target !== null &&
             ((target.structureType == STRUCTURE_SPAWN && target.energy < target.energyCapacity) ||
