@@ -54,6 +54,7 @@ let Activity = function ()
             return;
          }
       }
+      
       else {
          if (target != null) {
             let error = creep.Drive(target.pos);
